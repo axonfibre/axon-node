@@ -5,7 +5,7 @@ are:
 
 ## Requirements
 1. A recent release of Docker enterprise or community edition. You can find installation instructions in the [official Docker documentation](https://docs.docker.com/engine/install/).
-2. [Docker Compose CLI plugin](https://docs.docker.com/compose/install/compose-plugin/).
+2. [Docker Compose CLI plugin](https://docs.docker.com/compose/install/linux/).
 
 ## Steps
 
