@@ -1,7 +1,7 @@
 package restapi
 
 import (
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 // ParametersRestAPI contains the definition of the parameters used by REST API.

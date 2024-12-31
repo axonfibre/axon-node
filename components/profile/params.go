@@ -1,7 +1,7 @@
 package profile
 
 import (
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 const (

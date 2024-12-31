@@ -1,7 +1,7 @@
 package tangle
 
 import (
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/event"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"

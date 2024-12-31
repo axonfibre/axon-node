@@ -13,9 +13,9 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/lo"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/lo"
+	"github.com/axonfibre/fibre.go/logger"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 const (

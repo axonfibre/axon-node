@@ -8,7 +8,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore"
 	"github.com/iotaledger/hornet/v2/components/coreapi"
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	"github.com/iotaledger/hornet/v2/pkg/dag"

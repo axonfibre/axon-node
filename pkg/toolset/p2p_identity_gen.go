@@ -12,9 +12,9 @@ import (
 	"github.com/mr-tron/base58"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	hivecrypto "github.com/iotaledger/hive.go/crypto"
-	"github.com/iotaledger/hive.go/crypto/pem"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	hivecrypto "github.com/axonfibre/fibre.go/crypto"
+	"github.com/axonfibre/fibre.go/crypto/pem"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
 	iotago "github.com/iotaledger/iota.go/v3"
 )

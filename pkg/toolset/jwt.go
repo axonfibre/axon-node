@@ -8,9 +8,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	hivep2p "github.com/iotaledger/hive.go/crypto/p2p"
-	"github.com/iotaledger/hive.go/crypto/pem"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	hivep2p "github.com/axonfibre/fibre.go/crypto/p2p"
+	"github.com/axonfibre/fibre.go/crypto/pem"
 	"github.com/iotaledger/hornet/v2/pkg/jwt"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
 )

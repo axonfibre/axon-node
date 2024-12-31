@@ -13,8 +13,8 @@ import (
 	"github.com/pkg/errors"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
 )
 
 const (

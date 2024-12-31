@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 // Events holds protocol related events.

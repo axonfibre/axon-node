@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 	"github.com/iotaledger/hornet/v2/components/restapi"
 	"github.com/iotaledger/hornet/v2/pkg/components"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"

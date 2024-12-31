@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"

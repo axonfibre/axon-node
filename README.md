@@ -1,3 +1,9 @@
+# Axon Node
+
+Axon nodes are the synapses of the Axon Fibre.
+
+# Original Hornet docs
+
 # HORNET - The IOTA node
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/iotaledger/hornet/build_HORNET.yml?style=for-the-badge&branch=develop) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/iotaledger/hornet?style=for-the-badge) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/iotaledger/hornet?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/iotaledger/hornet?style=for-the-badge)

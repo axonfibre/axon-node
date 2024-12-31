@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	iotago "github.com/iotaledger/iota.go/v3"
 )

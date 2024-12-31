@@ -3,10 +3,10 @@
     "targetNetworkName": "testnet-2",
     "milestonePublicKeyCount": 7,
     "baseToken": {
-      "name": "Shimmer",
-      "tickerSymbol": "SMR",
-      "unit": "SMR",
-      "subunit": "glow",
+      "name": "Spike",
+      "tickerSymbol": "SPK",
+      "unit": "SPK",
+      "subunit": "voltage",
       "decimals": 6,
       "useMetricPrefix": false
     },

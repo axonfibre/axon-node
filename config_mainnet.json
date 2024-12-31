@@ -1,11 +1,11 @@
 {
   "protocol": {
-    "targetNetworkName": "iota-mainnet",
+    "targetNetworkName": "axon-mainnet",
     "milestonePublicKeyCount": 7,
     "baseToken": {
-      "name": "IOTA",
-      "tickerSymbol": "IOTA",
-      "unit": "IOTA",
+      "name": "Axon",
+      "tickerSymbol": "Axon",
+      "unit": "Axon",
       "subunit": "micro",
       "decimals": 6,
       "useMetricPrefix": false

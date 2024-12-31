@@ -10,7 +10,7 @@ import iotago "github.com/iotaledger/iota.go/v3"
 //     with the range from streamRange.lastSent + 1 up to index - 1.
 //   - streamRange.lastSent is auto. updated
 //
-//go:generate go run github.com/iotaledger/hive.go/codegen/variadic/cmd@latest 1 2 rangesend.go
+//go:generate go run github.com/axonfibre/fibre.go/codegen/variadic/cmd@latest 1 2 rangesend.go
 func handleRangedSend /*{{- if hasParams}}{{paramCount}}{{"["}}{{types}}{{" any]"}}{{end -}}*/ (index iotago.MilestoneIndex /*{{- ", "}}{{typedParams -}}*/, streamRange *streamRange,
 	catchUpFunc func(start iotago.MilestoneIndex, end iotago.MilestoneIndex) error,
 	sendFunc func(index iotago.MilestoneIndex /*{{- ", "}}{{typedParams -}}*/) error,

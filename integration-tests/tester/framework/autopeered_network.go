@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/iotaledger/hive.go/crypto/ed25519"
-	"github.com/iotaledger/hive.go/crypto/identity"
+	"github.com/axonfibre/fibre.go/crypto/ed25519"
+	"github.com/axonfibre/fibre.go/crypto/identity"
 )
 
 // AutopeeredNetwork is a network consisting out of autopeered nodes.

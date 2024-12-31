@@ -9,8 +9,8 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoreds"
 
 	kvstoreds "github.com/iotaledger/go-ds-kvstore"
-	"github.com/iotaledger/hive.go/kvstore"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/kvstore"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
 	"github.com/iotaledger/hornet/v2/pkg/database"
 )
 

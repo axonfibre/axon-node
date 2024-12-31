@@ -3,9 +3,9 @@ package utxo
 import (
 	"encoding/binary"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/serializer/v2"
-	"github.com/iotaledger/hive.go/serializer/v2/marshalutil"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2/marshalutil"
 	iotago "github.com/iotaledger/iota.go/v3"
 )
 

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/iotaledger/hive.go/app"
-	"github.com/iotaledger/hive.go/apputils/config"
+	"github.com/axonfibre/fibre.go/app"
+	"github.com/axonfibre/fibre.go/apputils/config"
 	hornetApp "github.com/iotaledger/hornet/v2/components/app"
 )
 

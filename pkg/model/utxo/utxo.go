@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore"
 	iotago "github.com/iotaledger/iota.go/v3"
 )
 

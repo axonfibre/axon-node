@@ -3,7 +3,7 @@ package autopeering
 import (
 	"time"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 // ParametersAutopeering contains the definition of the parameters used by autopeering.

@@ -34,11 +34,11 @@ alphanet/
 testnet/
 shimmer/
 
-# private tangle
-private_tangle/
+# private fibre
+private_fibre/
 
 # log files
-hornet.log
+axon.log
 integration-tests/logs/*.log
 integration-tests/logs/*.html
 integration-tests/logs/*.profile
@@ -51,4 +51,4 @@ scripts/
 tools/
 
 # Executable
-/hornet
+/axon

@@ -1,8 +1,8 @@
 package database
 
 import (
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
-	"github.com/iotaledger/hive.go/kvstore/pebble"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/kvstore/pebble"
 	"github.com/iotaledger/hornet/v2/pkg/database"
 	"github.com/iotaledger/hornet/v2/pkg/metrics"
 )

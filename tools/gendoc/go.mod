@@ -5,8 +5,8 @@ go 1.21
 replace github.com/iotaledger/hornet/v2 => ../../
 
 require (
-	github.com/iotaledger/hive.go/app v0.0.0-20230629181801-64c530ff9d15
-	github.com/iotaledger/hive.go/apputils v1.0.0-rc.1.0.20230417125513-e2e89991217f
+	github.com/axonfibre/fibre.go/app v0.0.1
+	github.com/axonfibre/fibre.go/apputils v1.0.0-rc.1.0.20230417125513-e2e89991217f
 	github.com/iotaledger/hornet/v2 v2.0.0-00010101000000-000000000000
 )
 
@@ -62,18 +62,18 @@ require (
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
 	github.com/iotaledger/go-ds-kvstore v1.0.0-rc.1.0.20230222082244-f3010dd0a934 // indirect
 	github.com/iotaledger/grocksdb v1.7.5-0.20230220105546-5162e18885c7 // indirect
-	github.com/iotaledger/hive.go/autopeering v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/constraints v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/crypto v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/ds v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/kvstore v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/lo v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/logger v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/objectstorage v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/runtime v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/serializer/v2 v2.0.0-rc.1.0.20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/stringify v0.0.0-20230629181801-64c530ff9d15 // indirect
-	github.com/iotaledger/hive.go/web v0.0.0-20230629181801-64c530ff9d15 // indirect
+	github.com/axonfibre/fibre.go/autopeering v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/constraints v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/crypto v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/ds v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/kvstore v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/lo v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/logger v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/objectstorage v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/runtime v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/serializer/v2 v2.0.0-rc.1.0.20230629181801-64c530ff9d15 // indirect
+	github.com/axonfibre/fibre.go/stringify v0.0.1 // indirect
+	github.com/axonfibre/fibre.go/web v0.0.1 // indirect
 	github.com/iotaledger/inx-app v1.0.0-rc.3.0.20230417173151-cde47df5fe79 // indirect
 	github.com/iotaledger/inx/go v1.0.0-rc.2 // indirect
 	github.com/iotaledger/iota.go v1.0.0 // indirect

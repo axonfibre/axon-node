@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/iotaledger/hive.go/app"
-	"github.com/iotaledger/hive.go/app/components/profiling"
-	"github.com/iotaledger/hive.go/app/components/shutdown"
+	"github.com/axonfibre/fibre.go/app"
+	"github.com/axonfibre/fibre.go/app/components/profiling"
+	"github.com/axonfibre/fibre.go/app/components/shutdown"
 	"github.com/iotaledger/hornet/v2/components/autopeering"
 	"github.com/iotaledger/hornet/v2/components/coreapi"
 	dashboard_metrics "github.com/iotaledger/hornet/v2/components/dashboard-metrics"

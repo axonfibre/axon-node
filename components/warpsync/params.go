@@ -1,7 +1,7 @@
 package warpsync
 
 import (
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 // ParametersWarpSync contains the definition of the parameters used by WarpSync.

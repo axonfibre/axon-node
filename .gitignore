@@ -20,7 +20,7 @@ dist/
 
 # OSX related files
 .DS_Store
-/hornet
+/axon
 
 # Database directory
 mainnet*/
@@ -32,7 +32,7 @@ shimmer*/
 snapshots/
 
 # log files
-hornet.log
+axon.log
 integration-tests/logs/*.log
 integration-tests/logs/*.html
 integration-tests/logs/*.profile

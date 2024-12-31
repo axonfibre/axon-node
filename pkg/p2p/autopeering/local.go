@@ -9,10 +9,10 @@ import (
 
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/iotaledger/hive.go/autopeering/peer"
-	"github.com/iotaledger/hive.go/autopeering/peer/service"
-	"github.com/iotaledger/hive.go/kvstore"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/autopeering/peer"
+	"github.com/axonfibre/fibre.go/autopeering/peer/service"
+	"github.com/axonfibre/fibre.go/kvstore"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
 	"github.com/iotaledger/hornet/v2/pkg/database"
 )
 

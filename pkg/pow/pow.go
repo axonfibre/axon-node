@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	inxpow "github.com/iotaledger/inx-app/pkg/pow"
 	iotago "github.com/iotaledger/iota.go/v3"
 )

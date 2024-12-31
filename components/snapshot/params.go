@@ -1,7 +1,7 @@
 package snapshot
 
 import (
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
 )
 

@@ -11,7 +11,7 @@ fi
 
 for i in $MODULES
 do
-	go get -u github.com/iotaledger/hive.go/$i@$COMMIT
+	go get -u github.com/axonfibre/fibre.go/$i@$COMMIT
 done
 
 ./go_mod_tidy.sh

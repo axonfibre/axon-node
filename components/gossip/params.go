@@ -3,7 +3,7 @@ package gossip
 import (
 	"time"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 // ParametersRequests contains the definition of the parameters used by the requests.

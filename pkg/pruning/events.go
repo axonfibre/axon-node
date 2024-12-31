@@ -1,7 +1,7 @@
 package pruning
 
 import (
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/event"
 	iotago "github.com/iotaledger/iota.go/v3"
 )
 

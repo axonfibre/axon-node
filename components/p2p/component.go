@@ -14,10 +14,10 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
-	"github.com/iotaledger/hive.go/app/configuration"
-	hivep2p "github.com/iotaledger/hive.go/crypto/p2p"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/app"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	hivep2p "github.com/axonfibre/fibre.go/crypto/p2p"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
 	"github.com/iotaledger/hornet/v2/pkg/daemon"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
 )

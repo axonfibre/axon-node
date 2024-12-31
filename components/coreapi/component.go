@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 	"github.com/iotaledger/hornet/v2/components/protocfg"
 	"github.com/iotaledger/hornet/v2/components/restapi"
 	"github.com/iotaledger/hornet/v2/pkg/components"

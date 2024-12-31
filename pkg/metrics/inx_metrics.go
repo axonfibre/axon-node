@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/iotaledger/hive.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/event"
 )
 
 type INXEvents struct {

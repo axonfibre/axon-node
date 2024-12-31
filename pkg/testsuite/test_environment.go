@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	appLogger "github.com/iotaledger/hive.go/app/logger"
-	"github.com/iotaledger/hive.go/crypto"
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/mapdb"
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	appLogger "github.com/axonfibre/fibre.go/app/logger"
+	"github.com/axonfibre/fibre.go/crypto"
+	"github.com/axonfibre/fibre.go/kvstore"
+	"github.com/axonfibre/fibre.go/kvstore/mapdb"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/metrics"
 	"github.com/iotaledger/hornet/v2/pkg/model/milestonemanager"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"

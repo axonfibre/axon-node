@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 )
 
 // ParametersDatabase contains the definition of the parameters used by the ParametersDatabase.

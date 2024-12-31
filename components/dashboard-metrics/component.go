@@ -8,7 +8,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 	"github.com/iotaledger/hornet/v2/components/restapi"
 	"github.com/iotaledger/hornet/v2/pkg/components"
 	"github.com/iotaledger/hornet/v2/pkg/daemon"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	iotago "github.com/iotaledger/iota.go/v3"
 )
 

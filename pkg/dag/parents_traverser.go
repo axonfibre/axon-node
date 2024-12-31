@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/iotaledger/hive.go/runtime/contextutils"
+	"github.com/axonfibre/fibre.go/runtime/contextutils"
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	iotago "github.com/iotaledger/iota.go/v3"
 )

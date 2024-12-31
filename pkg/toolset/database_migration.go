@@ -9,10 +9,10 @@ import (
 	"github.com/dustin/go-humanize"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	"github.com/iotaledger/hive.go/kvstore"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	"github.com/axonfibre/fibre.go/kvstore"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
 	"github.com/iotaledger/hornet/v2/pkg/database"
 	"github.com/iotaledger/hornet/v2/pkg/utils"
 )

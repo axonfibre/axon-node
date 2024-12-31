@@ -8,12 +8,12 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/iotaledger/hive.go/app/daemon"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/runtime/syncutils"
-	"github.com/iotaledger/hive.go/runtime/timeutil"
-	"github.com/iotaledger/hive.go/runtime/valuenotifier"
-	"github.com/iotaledger/hive.go/runtime/workerpool"
+	"github.com/axonfibre/fibre.go/app/daemon"
+	"github.com/axonfibre/fibre.go/logger"
+	"github.com/axonfibre/fibre.go/runtime/syncutils"
+	"github.com/axonfibre/fibre.go/runtime/timeutil"
+	"github.com/axonfibre/fibre.go/runtime/valuenotifier"
+	"github.com/axonfibre/fibre.go/runtime/workerpool"
 	"github.com/iotaledger/hornet/v2/pkg/metrics"
 	"github.com/iotaledger/hornet/v2/pkg/model/migrator"
 	"github.com/iotaledger/hornet/v2/pkg/model/milestonemanager"

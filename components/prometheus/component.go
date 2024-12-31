@@ -16,7 +16,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
+	"github.com/axonfibre/fibre.go/app"
 	coreDatabase "github.com/iotaledger/hornet/v2/components/database"
 	"github.com/iotaledger/hornet/v2/components/inx"
 	"github.com/iotaledger/hornet/v2/pkg/components"

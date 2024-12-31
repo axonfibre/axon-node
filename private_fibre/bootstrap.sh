@@ -32,8 +32,8 @@ if [[ "$OSTYPE" != "darwin"* ]]; then
 fi
 docker compose run create-snapshots
 
-# Prepare database directory for hornet-1
-mkdir -p privatedb/hornet-1
+# Prepare database directory for axon-node-1
+mkdir -p privatedb/axon-node-1
 mkdir -p privatedb/state
 if [[ "$OSTYPE" != "darwin"* ]]; then
   chown -R 65532:65532 privatedb
@@ -43,9 +43,9 @@ fi
 docker compose run bootstrap-network
 
 # Duplicate snapshot for all nodes
-cp -R snapshots/hornet-1 snapshots/hornet-2
-cp -R snapshots/hornet-1 snapshots/hornet-3
-cp -R snapshots/hornet-1 snapshots/hornet-4
+cp -R snapshots/axon-node-1 snapshots/axon-node-2
+cp -R snapshots/axon-node-1 snapshots/axon-node-3
+cp -R snapshots/axon-node-1 snapshots/axon-node-4
 if [[ "$OSTYPE" != "darwin"* ]]; then
   chown -R 65532:65532 snapshots
 fi
@@ -53,9 +53,9 @@ fi
 # Prepare database directory
 mkdir -p privatedb/indexer
 mkdir -p privatedb/participation
-mkdir -p privatedb/hornet-2
-mkdir -p privatedb/hornet-3
-mkdir -p privatedb/hornet-4
+mkdir -p privatedb/axon-node-2
+mkdir -p privatedb/axon-node-3
+mkdir -p privatedb/axon-node-4
 if [[ "$OSTYPE" != "darwin"* ]]; then
   chown -R 65532:65532 privatedb
 fi

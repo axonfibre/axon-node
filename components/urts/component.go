@@ -7,9 +7,9 @@ import (
 
 	"go.uber.org/dig"
 
-	"github.com/iotaledger/hive.go/app"
-	"github.com/iotaledger/hive.go/app/shutdown"
-	"github.com/iotaledger/hive.go/lo"
+	"github.com/axonfibre/fibre.go/app"
+	"github.com/axonfibre/fibre.go/app/shutdown"
+	"github.com/axonfibre/fibre.go/lo"
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	"github.com/iotaledger/hornet/v2/pkg/components"
 	"github.com/iotaledger/hornet/v2/pkg/daemon"

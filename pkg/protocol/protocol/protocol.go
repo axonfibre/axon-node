@@ -3,8 +3,8 @@ package protocol
 import (
 	"sync"
 
-	"github.com/iotaledger/hive.go/runtime/event"
-	"github.com/iotaledger/hive.go/serializer/v2/byteutils"
+	"github.com/axonfibre/fibre.go/runtime/event"
+	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
 	"github.com/iotaledger/hornet/v2/pkg/protocol/protocol/message"
 	"github.com/iotaledger/hornet/v2/pkg/protocol/protocol/tlv"
 )

@@ -25,15 +25,15 @@
   },
   "node": {
     "profile": "auto",
-    "alias": "HORNET node"
+    "alias": "Axon Node"
   },
   "protocol": {
-    "targetNetworkName": "iota-mainnet",
+    "targetNetworkName": "axon-mainnet",
     "milestonePublicKeyCount": 7,
     "baseToken": {
-      "name": "IOTA",
-      "tickerSymbol": "IOTA",
-      "unit": "IOTA",
+      "name": "Axon",
+      "tickerSymbol": "Axon",
+      "unit": "Axon",
       "subunit": "micro",
       "decimals": 6,
       "useMetricPrefix": false
@@ -150,8 +150,8 @@
     "deltaSizeThresholdMinSize": "50M",
     "downloadURLs": [
       {
-        "full": "https://files.stardust-mainnet.iotaledger.net/snapshots/latest-full_snapshot.bin",
-        "delta": "https://files.stardust-mainnet.iotaledger.net/snapshots/latest-delta_snapshot.bin"
+        "full": "https://files.axonfibre.com/snapshots/latest-full_snapshot.bin",
+        "delta": "https://files.axonfibre.com/snapshots/latest-delta_snapshot.bin"
       }
     ]
   },
@@ -201,7 +201,7 @@
     "useGZIP": true,
     "debugRequestLoggerEnabled": false,
     "jwtAuth": {
-      "salt": "HORNET"
+      "salt": "AxonNode"
     },
     "pow": {
       "enabled": false,

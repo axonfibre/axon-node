@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/iotaledger/hive.go/objectstorage"
-	"github.com/iotaledger/hive.go/serializer/v2"
+	"github.com/axonfibre/fibre.go/objectstorage"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	iotago "github.com/iotaledger/iota.go/v3"
 )
 

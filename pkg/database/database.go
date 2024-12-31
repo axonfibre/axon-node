@@ -7,13 +7,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
-	"github.com/iotaledger/hive.go/kvstore/mapdb"
-	"github.com/iotaledger/hive.go/kvstore/pebble"
-	"github.com/iotaledger/hive.go/kvstore/rocksdb"
-	"github.com/iotaledger/hive.go/runtime/event"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/kvstore"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/kvstore/mapdb"
+	"github.com/axonfibre/fibre.go/kvstore/pebble"
+	"github.com/axonfibre/fibre.go/kvstore/rocksdb"
+	"github.com/axonfibre/fibre.go/runtime/event"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
 	"github.com/iotaledger/hornet/v2/pkg/metrics"
 )
 

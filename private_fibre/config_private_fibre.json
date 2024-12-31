@@ -4,10 +4,10 @@
     "stopGracePeriod": "5m"
   },
   "node": {
-    "alias": "HORNET private-tangle node"
+    "alias": "Axon Node private fibre"
   },
   "protocol": {
-    "targetNetworkName": "private_tangle1",
+    "targetNetworkName": "private_fibre_1",
     "milestonePublicKeyCount": 2,
     "baseToken": {
       "name": "TestCoin",

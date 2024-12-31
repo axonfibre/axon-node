@@ -16,9 +16,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotaledger/hive.go/app/configuration"
-	appLogger "github.com/iotaledger/hive.go/app/logger"
-	"github.com/iotaledger/hive.go/logger"
+	"github.com/axonfibre/fibre.go/app/configuration"
+	appLogger "github.com/axonfibre/fibre.go/app/logger"
+	"github.com/axonfibre/fibre.go/logger"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
 )
 

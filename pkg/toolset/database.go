@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	hivedb "github.com/iotaledger/hive.go/kvstore/database"
-	"github.com/iotaledger/hive.go/runtime/ioutils"
-	"github.com/iotaledger/hive.go/serializer/v2"
+	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
+	"github.com/axonfibre/fibre.go/runtime/ioutils"
+	"github.com/axonfibre/fibre.go/serializer/v2"
 	databasecore "github.com/iotaledger/hornet/v2/components/database"
 	"github.com/iotaledger/hornet/v2/components/protocfg"
 	"github.com/iotaledger/hornet/v2/pkg/common"
