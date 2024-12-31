@@ -1,0 +1,118 @@
+{
+  "custom": {
+    "caches": {
+      "addresses": {
+        "cacheTime": "100ms",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "children": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "milestones": {
+        "cacheTime": "500ms",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "blocks": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "unreferencedBlocks": {
+        "cacheTime": "100ms",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "incomingBlocksFilter": {
+        "cacheTime": "2s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": false,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      }
+    }
+  },
+  "debug": {
+    "caches": {
+      "addresses": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "children": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "milestones": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "blocks": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "unreferencedBlocks": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      },
+      "incomingBlocksFilter": {
+        "cacheTime": "1.5s",
+        "releaseExecutorWorkerCount": 10,
+        "leakDetection": {
+          "enabled": true,
+          "maxConsumersPerObject": 50,
+          "maxConsumerHoldTime": "30s"
+        }
+      }
+    }
+  }
+}

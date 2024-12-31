@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  hornet-nest:
+    container_name: hornet-nest
+    build:
+      dockerfile: Dockerfile
+    image: hornet-nest:dev
+    stop_grace_period: 5m
+    ports:
+      - "14265:14265/tcp"
+      - "8081:8081/tcp"
+      - "8091:8091/tcp"
+      - "9029:9029/tcp"
