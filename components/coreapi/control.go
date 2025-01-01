@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/iotaledger/inx-app/pkg/httpserver"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func pruneDatabase(c echo.Context) (*pruneDatabaseResponse, error) {

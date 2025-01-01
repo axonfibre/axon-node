@@ -10,7 +10,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/kvstore"
 	"github.com/axonfibre/fibre.go/serializer/v2"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 var (

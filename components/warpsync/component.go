@@ -17,7 +17,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/syncmanager"
 	"github.com/iotaledger/hornet/v2/pkg/protocol/gossip"
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func init() {

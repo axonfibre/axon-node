@@ -10,7 +10,7 @@ import (
 	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func TestProtocolStorage_Get(t *testing.T) {

@@ -1,6 +1,6 @@
 package storage
 
-import iotago "github.com/iotaledger/iota.go/v3"
+import iotago "github.com/axonfibre/axon.go/v3"
 
 type CachedBlockMetadataFunc func(blockID iotago.BlockID) (*CachedMetadata, error)
 

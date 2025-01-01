@@ -14,7 +14,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/app/configuration"
 	"github.com/axonfibre/fibre.go/crypto"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func printEd25519Info(mnemonic bip39.Mnemonic, path bip32path.Path, prvKey ed25519.PrivateKey, pubKey ed25519.PublicKey, hrp iotago.NetworkPrefix, outputJSON bool) error {

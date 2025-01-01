@@ -18,7 +18,7 @@ import (
 	"github.com/axonfibre/fibre.go/runtime/workerpool"
 	"github.com/iotaledger/hornet/v2/pkg/metrics"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // ServiceEvents are events happening around a Service.

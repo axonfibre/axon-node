@@ -4,9 +4,9 @@ FROM golang:1.21-bullseye AS build
 ARG BUILD_TAGS=rocksdb
 
 LABEL org.label-schema.description="Axon Node"
-LABEL org.label-schema.name="axonfibre/axon-node"
+LABEL org.label-schema.name="axonfibre/axon"
 LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.vcs-url="https://github.com/axonfibre/axon-node"
+LABEL org.label-schema.vcs-url="https://github.com/axonfibre/axon"
 
 # Ensure ca-certificates are up to date
 RUN update-ca-certificates

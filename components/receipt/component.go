@@ -10,8 +10,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/migrator"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
-	"github.com/iotaledger/iota.go/api"
-	iotago "github.com/iotaledger/iota.go/v3"
+	"github.com/axonfibre/axon.go/api"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func init() {

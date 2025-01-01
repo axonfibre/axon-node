@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 
 	"github.com/axonfibre/fibre.go/objectstorage"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 type UnreferencedBlock struct {

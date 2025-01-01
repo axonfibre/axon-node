@@ -2,7 +2,7 @@
 
 package inx
 
-import iotago "github.com/iotaledger/iota.go/v3"
+import iotago "github.com/axonfibre/axon.go/v3"
 
 // handleRangedSend {{- if hasParams}}{{paramCount}}{{end}} handles the sending of data within a streamRange.
 //   - sendFunc gets executed for the given index.

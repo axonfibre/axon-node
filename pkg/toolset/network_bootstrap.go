@@ -24,10 +24,10 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/builder"
-	"github.com/iotaledger/iota.go/v3/keymanager"
-	"github.com/iotaledger/iota.go/v3/signingprovider"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/builder"
+	"github.com/axonfibre/axon.go/v3/keymanager"
+	"github.com/axonfibre/axon.go/v3/signingprovider"
 )
 
 // CoordinatorState is the JSON representation of a coordinator state.

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/iotaledger/hornet/v2/integration-tests/tester/framework"
-	"github.com/iotaledger/iota.go/consts"
-	iotago "github.com/iotaledger/iota.go/v3"
+	"github.com/axonfibre/axon.go/consts"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // TestSnapshot boots up a statically peered network where the nodes consume

@@ -11,7 +11,7 @@ import (
 	hivedb "github.com/axonfibre/fibre.go/kvstore/database"
 	snapCore "github.com/iotaledger/hornet/v2/components/snapshot"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

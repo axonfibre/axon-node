@@ -8,7 +8,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/restapi"
 	"github.com/iotaledger/inx-app/pkg/httpserver"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func storageMilestoneByIndex(c echo.Context) (*storage.Milestone, error) {

@@ -13,8 +13,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/milestonemanager"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/testsuite"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/keymanager"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/keymanager"
 )
 
 const (

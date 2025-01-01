@@ -8,7 +8,7 @@ import (
 	flag "github.com/spf13/pflag"
 
 	"github.com/axonfibre/fibre.go/app/configuration"
-	"github.com/iotaledger/iota.go/v3/nodeclient"
+	"github.com/axonfibre/axon.go/v3/nodeclient"
 )
 
 func nodeInfo(args []string) error {

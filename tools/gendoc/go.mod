@@ -76,8 +76,8 @@ require (
 	github.com/axonfibre/fibre.go/web v0.0.1 // indirect
 	github.com/iotaledger/inx-app v1.0.0-rc.3.0.20230417173151-cde47df5fe79 // indirect
 	github.com/iotaledger/inx/go v1.0.0-rc.2 // indirect
-	github.com/iotaledger/iota.go v1.0.0 // indirect
-	github.com/iotaledger/iota.go/v3 v3.0.0-rc.3 // indirect
+	github.com/axonfibre/axon.go v1.0.0 // indirect
+	github.com/axonfibre/axon.go/v3 v3.0.0-rc.3 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/ipfs/go-datastore v0.6.0 // indirect
 	github.com/ipfs/go-log/v2 v2.5.1 // indirect

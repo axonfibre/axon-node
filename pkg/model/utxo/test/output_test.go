@@ -16,7 +16,7 @@ import (
 	"github.com/axonfibre/fibre.go/serializer/v2/byteutils"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func AssertOutputUnspentAndSpentTransitions(t *testing.T, output *utxo.Output, spent *utxo.Spent) {

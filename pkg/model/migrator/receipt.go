@@ -11,8 +11,8 @@ import (
 	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
-	"github.com/iotaledger/iota.go/encoding/t5b1"
-	iotago "github.com/iotaledger/iota.go/v3"
+	"github.com/axonfibre/axon.go/encoding/t5b1"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

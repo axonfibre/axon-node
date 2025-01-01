@@ -20,8 +20,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/protocol"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/nodeclient"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/nodeclient"
 )
 
 var (

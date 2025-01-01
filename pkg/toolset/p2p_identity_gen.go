@@ -16,7 +16,7 @@ import (
 	hivecrypto "github.com/axonfibre/fibre.go/crypto"
 	"github.com/axonfibre/fibre.go/crypto/pem"
 	"github.com/iotaledger/hornet/v2/pkg/p2p"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func generateP2PIdentity(args []string) error {

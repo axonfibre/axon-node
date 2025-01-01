@@ -10,7 +10,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/runtime/timeutil"
 	inx "github.com/iotaledger/inx/go"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func (s *Server) RequestTips(_ context.Context, req *inx.TipsRequest) (*inx.TipsResponse, error) {

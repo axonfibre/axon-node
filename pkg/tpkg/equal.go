@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func EqualOutput(t *testing.T, expected *utxo.Output, actual *utxo.Output) {

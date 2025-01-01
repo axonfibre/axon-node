@@ -123,8 +123,8 @@
       "enabled": false,
       "bindAddress": "0.0.0.0:14626",
       "entryNodes": [
-        "/dns/entry-hornet-0.h.stardust-mainnet.iotaledger.net/udp/14626/autopeering/K4cHM64KxzYJ5ZB2a9P3stJUHjvQDh4bzhCw49xDowi",
-        "/dns/entry-hornet-1.h.stardust-mainnet.iotaledger.net/udp/14626/autopeering/8UbVu5MjRZH2c9fnEdpfPvd7qqDgrVFsNsvc933FuMTm"
+        "/dns/entry-node-0.mainnet.axonfibre.com/udp/14626/autopeering/K4cHM64KxzYJ5ZB2a9P3stJUHjvQDh4bzhCw49xDowi",
+        "/dns/entry-node-1.mainnet.axonfibre.com/udp/14626/autopeering/8UbVu5MjRZH2c9fnEdpfPvd7qqDgrVFsNsvc933FuMTm"
       ],
       "entryNodesPreferIPv6": false,
       "runAsEntryNode": false

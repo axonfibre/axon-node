@@ -7,7 +7,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 var protoParams = &iotago.ProtocolParameters{

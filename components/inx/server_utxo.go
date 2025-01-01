@@ -12,7 +12,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	inx "github.com/iotaledger/inx/go"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func NewLedgerOutput(o *utxo.Output) (*inx.LedgerOutput, error) {

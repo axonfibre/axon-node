@@ -11,7 +11,7 @@ import (
 	"github.com/axonfibre/fibre.go/app/configuration"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func snapshotMerge(args []string) error {

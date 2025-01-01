@@ -25,8 +25,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/pow"
 	"github.com/iotaledger/hornet/v2/pkg/protocol"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/keymanager"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/keymanager"
 )
 
 // TestEnvironment holds the state of the test environment.

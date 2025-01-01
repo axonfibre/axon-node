@@ -7,7 +7,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/axonfibre/fibre.go/serializer/v2/marshalutil"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // Helpers to serialize/deserialize into/from snapshots

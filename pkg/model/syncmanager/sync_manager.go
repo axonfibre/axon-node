@@ -7,7 +7,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/runtime/syncutils"
 	"github.com/iotaledger/hornet/v2/pkg/protocol"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

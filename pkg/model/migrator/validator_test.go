@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/iotaledger/hornet/v2/pkg/model/migrator"
-	"github.com/iotaledger/iota.go/address"
-	"github.com/iotaledger/iota.go/api"
-	"github.com/iotaledger/iota.go/encoding/t5b1"
-	"github.com/iotaledger/iota.go/transaction"
-	"github.com/iotaledger/iota.go/trinary"
-	iotago "github.com/iotaledger/iota.go/v3"
+	"github.com/axonfibre/axon.go/address"
+	"github.com/axonfibre/axon.go/api"
+	"github.com/axonfibre/axon.go/encoding/t5b1"
+	"github.com/axonfibre/axon.go/transaction"
+	"github.com/axonfibre/axon.go/trinary"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func TestValidator_QueryMigratedFunds(t *testing.T) {

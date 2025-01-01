@@ -12,8 +12,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/dag"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/merklehasher"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/merklehasher"
 
 	// import implementation.
 	_ "golang.org/x/crypto/blake2b"

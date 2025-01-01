@@ -17,7 +17,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
 	"github.com/iotaledger/hornet/v2/pkg/tipselect"
 	inx "github.com/iotaledger/inx/go"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func NewINXBlockMetadata(ctx context.Context, blockID iotago.BlockID, metadata *storage.BlockMetadata, tip ...*tipselect.Tip) (*inx.BlockMetadata, error) {

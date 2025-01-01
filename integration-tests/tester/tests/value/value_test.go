@@ -13,8 +13,8 @@ import (
 
 	"github.com/iotaledger/hornet/v2/integration-tests/tester/framework"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/builder"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/builder"
 )
 
 // TestValue boots up a statically peered network and then checks that spending

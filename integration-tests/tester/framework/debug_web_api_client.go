@@ -3,8 +3,8 @@ package framework
 import (
 	"context"
 
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/nodeclient"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/nodeclient"
 )
 
 // NewDebugNodeAPIClient returns a new debug node API instance.

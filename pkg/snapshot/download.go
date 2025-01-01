@@ -14,7 +14,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/axonfibre/fibre.go/runtime/contextutils"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

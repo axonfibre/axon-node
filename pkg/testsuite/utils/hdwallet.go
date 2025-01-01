@@ -9,7 +9,7 @@ import (
 	"github.com/wollac/iota-crypto-demo/pkg/slip10/eddsa"
 
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

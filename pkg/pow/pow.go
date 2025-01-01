@@ -6,7 +6,7 @@ import (
 
 	"github.com/axonfibre/fibre.go/serializer/v2"
 	inxpow "github.com/iotaledger/inx-app/pkg/pow"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // Handler handles PoW requests of the node and uses local PoW.

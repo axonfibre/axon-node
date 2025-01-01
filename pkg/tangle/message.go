@@ -3,7 +3,7 @@ package tangle
 import (
 	"github.com/iotaledger/hornet/v2/pkg/model/milestonemanager"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // AddBlockToStorage adds a new block to the cache/persistence layer,

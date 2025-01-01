@@ -7,7 +7,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
 	"github.com/iotaledger/inx-app/pkg/httpserver"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func computeWhiteFlagMutations(c echo.Context) (*ComputeWhiteFlagMutationsResponse, error) {

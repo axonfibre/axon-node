@@ -16,7 +16,7 @@ import (
 	"github.com/axonfibre/fibre.go/runtime/workerpool"
 	"github.com/iotaledger/hornet/v2/pkg/common"
 	inx "github.com/iotaledger/inx/go"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 const (

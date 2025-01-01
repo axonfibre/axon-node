@@ -13,8 +13,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/testsuite/utils"
 	"github.com/iotaledger/hornet/v2/pkg/tpkg"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/builder"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/builder"
 )
 
 type BlockBuilder struct {

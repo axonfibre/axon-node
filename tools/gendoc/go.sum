@@ -323,10 +323,10 @@ github.com/iotaledger/inx-app v1.0.0-rc.3.0.20230417173151-cde47df5fe79 h1:sQlg8
 github.com/iotaledger/inx-app v1.0.0-rc.3.0.20230417173151-cde47df5fe79/go.mod h1:9AA+oDJv4WGM0YdDm7Lh24XK5O9Jd9SPw3ApMJSSv7k=
 github.com/iotaledger/inx/go v1.0.0-rc.2 h1:SjHGHQ1pEe7/B0bnVIHCa1zQBvcC0QRwcYPzUGarrJU=
 github.com/iotaledger/inx/go v1.0.0-rc.2/go.mod h1:PYijAQs5lgAzLENkpvdSoLM8Iq4KAg+CdU5Smxj01lI=
-github.com/iotaledger/iota.go v1.0.0 h1:tqm1FxJ/zOdzbrAaQ5BQpVF8dUy2eeGlSeWlNG8GoXY=
-github.com/iotaledger/iota.go v1.0.0/go.mod h1:RiKYwDyY7aCD1L0YRzHSjOsJ5mUR9yvQpvhZncNcGQI=
-github.com/iotaledger/iota.go/v3 v3.0.0-rc.3 h1:/2gH+AlsWX2T7f4uHvD7oAHmPRsW+SkjR29txzqpi5M=
-github.com/iotaledger/iota.go/v3 v3.0.0-rc.3/go.mod h1:R3m6d5AFI0I++HOaYQR7QU8hY//vUSwbOyqQ7Bco2O4=
+github.com/axonfibre/axon.go v1.0.0 h1:tqm1FxJ/zOdzbrAaQ5BQpVF8dUy2eeGlSeWlNG8GoXY=
+github.com/axonfibre/axon.go v1.0.0/go.mod h1:RiKYwDyY7aCD1L0YRzHSjOsJ5mUR9yvQpvhZncNcGQI=
+github.com/axonfibre/axon.go/v3 v3.0.0-rc.3 h1:/2gH+AlsWX2T7f4uHvD7oAHmPRsW+SkjR29txzqpi5M=
+github.com/axonfibre/axon.go/v3 v3.0.0-rc.3/go.mod h1:R3m6d5AFI0I++HOaYQR7QU8hY//vUSwbOyqQ7Bco2O4=
 github.com/ipfs/go-cid v0.4.1 h1:A/T3qGvxi4kpKWWcPC/PgbvDA2bjVLO7n4UeVwnbs/s=
 github.com/ipfs/go-cid v0.4.1/go.mod h1:uQHwDeX4c6CtyrFwdqyhpNcxVewur1M7l7fNU7LKwZk=
 github.com/ipfs/go-datastore v0.6.0 h1:JKyz+Gvz1QEZw0LsX1IBn+JFCJQH4SJVFtM4uWU0Myk=

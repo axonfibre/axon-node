@@ -17,7 +17,7 @@ import (
 	coreDatabase "github.com/iotaledger/hornet/v2/components/database"
 	"github.com/iotaledger/hornet/v2/pkg/database"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 func calculateDatabaseLedgerHash(dbStorage *storage.Storage, outputJSON bool) error {

@@ -7,7 +7,7 @@ import (
 	"github.com/axonfibre/fibre.go/runtime/event"
 	"github.com/axonfibre/fibre.go/serializer/v2"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // Events are events happening around the Manager.

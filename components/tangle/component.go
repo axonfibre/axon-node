@@ -25,8 +25,8 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/pruning"
 	"github.com/iotaledger/hornet/v2/pkg/snapshot"
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/keymanager"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/keymanager"
 )
 
 const (

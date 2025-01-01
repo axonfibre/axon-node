@@ -11,9 +11,9 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/dag"
 	"github.com/iotaledger/hornet/v2/pkg/model/storage"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/builder"
-	"github.com/iotaledger/iota.go/v3/keymanager"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/builder"
+	"github.com/axonfibre/axon.go/v3/keymanager"
 )
 
 type MockCoo struct {

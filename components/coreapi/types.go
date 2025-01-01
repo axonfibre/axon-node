@@ -8,7 +8,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/model/utxo"
 	"github.com/iotaledger/hornet/v2/pkg/protocol"
 	"github.com/iotaledger/hornet/v2/pkg/protocol/gossip"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // milestoneInfoResponse defines the milestone info response.

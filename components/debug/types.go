@@ -2,7 +2,7 @@ package debug
 
 import (
 	"github.com/iotaledger/hornet/v2/components/coreapi"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // outputIDsResponse defines the response of a GET debug outputs REST API call.

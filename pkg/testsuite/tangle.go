@@ -11,7 +11,7 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/tangle"
 	"github.com/iotaledger/hornet/v2/pkg/testsuite/utils"
 	"github.com/iotaledger/hornet/v2/pkg/whiteflag"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 // StoreBlock adds the block to the storage layer and solidifies it.

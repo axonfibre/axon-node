@@ -2,7 +2,7 @@ package protocfg
 
 import (
 	"github.com/axonfibre/fibre.go/crypto"
-	"github.com/iotaledger/iota.go/v3/keymanager"
+	"github.com/axonfibre/axon.go/v3/keymanager"
 )
 
 func KeyManagerWithConfigPublicKeyRanges(coordinatorPublicKeyRanges ConfigPublicKeyRanges) (*keymanager.KeyManager, error) {

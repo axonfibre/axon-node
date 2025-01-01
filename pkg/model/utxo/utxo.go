@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/axonfibre/fibre.go/kvstore"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 var (

@@ -2,7 +2,7 @@ package storage
 
 import (
 	"github.com/axonfibre/fibre.go/objectstorage"
-	iotago "github.com/iotaledger/iota.go/v3"
+	iotago "github.com/axonfibre/axon.go/v3"
 )
 
 type Child struct {

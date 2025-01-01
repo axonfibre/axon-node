@@ -21,9 +21,9 @@ import (
 	"github.com/iotaledger/hornet/v2/pkg/profile"
 	"github.com/iotaledger/hornet/v2/pkg/protocol"
 	"github.com/iotaledger/hornet/v2/pkg/protocol/protocol/message"
-	iotago "github.com/iotaledger/iota.go/v3"
-	"github.com/iotaledger/iota.go/v3/builder"
-	"github.com/iotaledger/iota.go/v3/pow"
+	iotago "github.com/axonfibre/axon.go/v3"
+	"github.com/axonfibre/axon.go/v3/builder"
+	"github.com/axonfibre/axon.go/v3/pow"
 )
 
 const (

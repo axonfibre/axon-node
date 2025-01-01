@@ -1,6 +1,6 @@
-module github.com/axonfibre/axon-node v0.0.1
+module github.com/axonfibre/axon-node
 
-go 1.21
+go 1.23
 
 require (
 	github.com/blang/vfs v1.0.0
@@ -24,8 +24,7 @@ require (
 	github.com/axonfibre/fibre.go/web v0.0.1
 	github.com/iotaledger/inx-app v1.0.0-rc.3.0.20230417173151-cde47df5fe79
 	github.com/iotaledger/inx/go v1.0.0-rc.2
-	github.com/iotaledger/iota.go v1.0.0
-	github.com/iotaledger/iota.go/v3 v3.0.0-rc.3
+	github.com/axonfibre/axon.go v0.0.1
 	github.com/labstack/echo-contrib v0.15.0
 	github.com/labstack/echo/v4 v4.11.1
 	github.com/labstack/gommon v0.4.0

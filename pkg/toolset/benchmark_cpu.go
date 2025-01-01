@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	legacy "github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/curl/bct"
-	"github.com/iotaledger/iota.go/encoding/b1t6"
-	"github.com/iotaledger/iota.go/trinary"
+	legacy "github.com/axonfibre/axon.go/consts"
+	"github.com/axonfibre/axon.go/curl/bct"
+	"github.com/axonfibre/axon.go/encoding/b1t6"
+	"github.com/axonfibre/axon.go/trinary"
 )
 
 const (
